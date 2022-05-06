@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>CyberSecuirty</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a role="img" id="logo"><img src="" alt=""></a>
+        </nav>
+    </header>
+    <main>
+    <section id="homescreen">
+        <h1>Password Threats and How to prevent them</h1>
+        <img src="img/towfiqu-barbhuiya-em5w9_xj3uU-unsplash.jpg" alt="">
+    </section>
+    <article id="firstArticle">
+        <ul>
+            <li>You know what? People suck at passwords. We use weak passwords, we reuse passwords. Or we write down passwords or store them in equally insecure ways. These practices make our data very vulnerable. It’s no surprise that attackers search exactly for that to  use that information for their own benefits. Thats why further down below on the webapge you'll read about the most famous password security risks and how to prevent them from happening.</li>
+        </ul>
+    </article>
+    <hr>
+    <article id="secondArticle">
+        <section class="first">
+            <h3>Phishing/Sniffers/Keyloggers</h3>
+            <div class="second">
+                <p>One of the easiest ways to get access to someone’s password is to have them tell you. Through this method, hackers can even bypass the password authentication process.Attackers target users by tricking them into typing their passwords into malicious websites they control (known as phishing), by infiltrating insecure, unencrypted wireless or wired network (commonly known as sniffing), or by installing a keylogger (software or hardware) on a computer.</p>
+                <img src="img/bermix-studio-wJ7atxTNeQE-unsplash.jpg" alt="Phishing/Sniffers/Keyloggers">
+            </div>
+        </section>
+        <section class="first">
+            <h3>Brute Force/Cracking</h3>
+            <div class="second">
+                <p>A common way for attackers to access passwords is by brute forcing or cracking passwords. These methods use software or automated tools to generate billions of passwords and trying each one of them to access the user’s account and data until the right password is discovered.</p>
+                <img src="img/fly-d-mT7lXZPjk7U-unsplash.jpg" alt="Brute Force/Cracking">
+            </div>
+        </section>
+        <section class="first">
+            <h3>Weak Passwords</h3>
+            <div class="second">
+                <p>Since users have to create their own passwords, it is highly likely that they won’t create a secure password. It might be because users want to have a password that’s easy to remember, or they aren’t up-to-date with password security best practices, or they use patterns to generate their passwords like using their name or birthdate in their passwords.</p>
+                <img src="img/katka-pavlickova--1MWTZamkwI-unsplash.jpg" alt="Weak Passwords">
+            </div>
+        </section>
+        <section class="first">
+            <hr>
+            <h3>Enforce Strong Passwords</h3>
+            <div class="second">
+                <p>Ensure that users have strong passwords with no maximum character limits. Make sure a password is a combination of uppercase and lowercase letters, symbols, and numbers. The challenge with passwords is that in order to be secure, they need to be unique and complex.
+                </p>
+                <img src="img/yura-fresh-dk4en2rFOIE-unsplash.jpg" alt="Enforce Strong Passwords">
+            </div>
+        </section>
+        <section class="first">
+            <h3>Password Recovery</h3>
+            <div class="second">
+                <p>Most of the applications and systems provide a password recovery system for users who have forgotten their passwords or simply want to reset their passwords. Often attackers may attempt to hack user accounts by using the password recovery system.</p>
+                <img src="" alt="">
+            </div>
+        </section>
+    </article>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="result-container">
+            <span id="result"></span>
+            <button class="btn" id="clipboard">
+                <i class="far fa-clipboard"></i>
+            </button>
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <label>Password length</label>
+                <input type="number" id="length" min='4' max='20' value='20' />
+            </div>
+            <div class="setting">
+                <label>Include uppercase letters</label> 
+                <input type="checkbox" id="uppercase" checked />
+            </div>
+            <div class="setting">
+                <label>Include lowercase letters</label> 
+                <input type="checkbox" id="lowercase" checked />
+            </div>
+            <div class="setting">
+                <label>Include numbers</label> 
+                <input type="checkbox" id="numbers" checked />
+            </div>
+            <div class="setting">
+                <label>Include symbols</label> 
+                <input type="checkbox" id="symbols" checked />
+            </div>
+        </div>
+        <button class="btn btn-large" id="generate">
+            Generate password
+        </button>
+    </div>
+    <hr>
+</main>
+</body>
+<script src="java/java.js"></script>
+</html>
